@@ -1,7 +1,7 @@
-year = {'Winter': (1, 2, 12),
-           'Sping': (3, 4, 5),
-           'Summer': (6, 7, 8),
-           'Autumn': (9, 10, 11)}
+year = {'Зима': (1, 2, 12),
+           'Весна': (3, 4, 5),
+           'Лето': (6, 7, 8),
+           'Осень': (9, 10, 11)}
 try:
     month = int(input('Введите номер месяца '))
     for key in year.keys():
@@ -11,7 +11,7 @@ except ValueError:
     print('Вы ввели неверные данные')
 
 
-year_list = ['Winter', 'Spring', 'Summer', 'Autumn']
+year_list = ['Зима', 'Весна', 'Лето', 'Осень']
 try:
     month = int(input('Введите номер месяца '))
     if month ==1 or month == 12 or month == 2:
